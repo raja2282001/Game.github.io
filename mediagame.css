@@ -1,0 +1,20 @@
+body{
+
+}
+.allo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#vidos1{
+    flex-wrap: wrap;
+}
+#vidos2{
+    flex-wrap: wrap;
+}
+#whats2{ 
+    flex-wrap: wrap;
+}
+#whats1 video{
+}

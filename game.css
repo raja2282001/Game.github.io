@@ -1,0 +1,354 @@
+/* /////////// */
+body{
+    font-family: 'Bad Script', cursive;
+    font-family: 'Staatliches', cursive;
+}
+.headanddiv{
+    position: relative;
+}
+.headanddiv::before{
+    content: "";
+    background: url("imag/cat-6570933_1920.jpg");
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.header::before{
+    content: "";
+    background: url("imag/cat-6570933_1920.jpg");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.header nav{
+
+}
+.header nav img{
+    height: 46px;
+    width: 46px;
+    border: 2px solid black;
+    border-radius: 654px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+}
+.header ul li a{
+    margin: 6px 53px;
+    list-style: none;
+    font-size: 21px;
+    transition: all 0.5s ease-in-out ; 
+}
+.header ul li a:hover{
+    color: white;
+    /* background-color: blue; */
+    /* transform: skew(20deg); */
+} 
+.header ul li a{
+    text-decoration: none;
+}
+/* //////// */
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 37px;
+}
+.head::before{
+  
+}
+.head h3{
+    font-size: 43px;
+}
+.head p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.allo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 34px;
+    padding: 34px;
+}
+.allo .left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 11px;
+    width: 88%;
+    margin: 34px;
+}
+.allo .left .lefttop img{
+    height: 445px;
+    width: 445px;
+}
+.allo .left .leftdow{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.allo .left .leftdow img{
+    height: 31px;
+    width: 37px;
+}
+.allo .med1{
+    justify-content: center;
+    border: 2px solid black;
+    margin: 34px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 34px;
+    width: 314px;
+}
+.form button{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Staatliches', cursive;
+}
+.allo .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 11px;
+    width: 88%;
+    margin: 34px;
+}
+.allo .right .righttop img{
+    height: 445px;
+    width: 445px;
+}
+.allo .right .rightdow{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.allo .right .rightdow img{
+    height: 31px;
+    width: 37px;
+}
+/* //// */
+/* .vido{
+    display: grid;
+    grid-template-areas: 
+    "raja arpan rop dp oop"
+    "a s h o k";
+    grid-gap: 6rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 47px;
+}*/
+#vidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#vidos1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#vidos1 video{
+    padding: 12px;
+    margin: 23px;
+}
+#vidos2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#vidos2 video{
+    padding: 12px;
+    margin: 23px;
+}
+#vidos::before{
+    content: "";
+    background: url("imag/pubg-6570924_1920.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+/*.vido .item1{
+    grid-area: raja;
+}
+.vido .item2{
+    grid-area: arpan;
+}
+.vido .item3{
+    grid-area: rop;
+}
+.vido .item4{
+    grid-area: dp;
+}
+.vido .item5{
+    grid-area: oop;
+}
+.vido .item6{
+    grid-area: a;
+}
+.vido .item7{
+    grid-area: s;
+}
+.vido .item8{
+    grid-area: h;
+}
+.vido .item9{
+    grid-area: o;
+}
+.vido .item10{
+    grid-area: k;
+}*/
+.vido  video{
+    height: 200px;
+    width: 200px;
+    border-radius: 70px;
+    transition:all 1s ease-in;
+}
+.vido video:hover{
+    height: 250px;
+    width: 250px;
+} 
+.allo .med2{
+    justify-content: center;
+}
+.allo .med2 img{
+    width: 401px;
+}
+.allo .med2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.allo .med2  button{
+    list-style: none;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Staatliches', cursive;
+    font-size: 42px;
+    border-radius: 27px;
+    background-color: #50ff0070;
+}
+.allo .med2 button:hover{
+    color: white;
+    background-color: rgb(25, 255, 5);
+}
+/* .what{
+    display: grid;
+    grid-template-areas: 
+    "whatitem1 whatitem4 whatitem2"
+    "whatitem3 whatitem4 whatitem5";
+    grid-template-columns: repeat(auto-fill,minmax(1480px));
+    grid-gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 44px;
+} */
+#whats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#whats1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#whats1 video{
+    padding: 12px;
+    margin: 40px;
+}
+#whats2{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#whats2 img{
+    padding: 12px;
+    margin: 23px 87px;
+}
+#whats::before{
+    content: "";
+    /* background: url("imag-2/wallpaperflare.com_wallpaper.jpg"); */
+    background: url("imag-2/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+/* .what .whatitem1{
+    grid-area: whatitem1;
+}
+.what .whatitem2{
+    grid-area: whatitem2;
+}
+.what .whatitem3{
+    grid-area: whatitem3;
+}
+.what .whatitem4{
+    grid-area: whatitem4;
+}
+.what .whatitem5{
+    grid-area: whatitem5;
+} */
+/* .what .whatitem6{
+    grid-area: whatitem6;
+}
+.what .whatitem7{
+    grid-area: whatitem7;
+} */
+.what img{
+    height: 200px;
+    width: 200px;
+    border-radius: 23px;
+    box-shadow: 20px -18px 12px blue;
+}
+.what video{
+    width: 80%;
+    border-radius: 46px;
+    box-shadow: 20px -18px 12px blue;
+}
+#timetek{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+    position: relative;
+}
