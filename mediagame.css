@@ -61,3 +61,68 @@ body{
     width: 94%;
     height: 332px;
 }
+@media (max-width: 848px) {
+    .header .ank1{
+        width: 93%;
+    }	
+}
+@media (max-width: 729px) {
+    .header .ank1{
+        width: 92%;
+    }	
+}
+@media (max-width: 640px) {
+    .header .ank1{
+        width: 91%;
+    }	
+}
+@media (max-width: 571px) {
+    .header .ank1{
+        width: 90%;
+    }	
+}
+@media (max-width: 515px) {
+    .header .ank1{
+        width: 89%;
+    }	
+}
+@media (max-width: 470px) {
+    .header .ank1{
+        width: 88%;
+    }	
+}
+@media (max-width: 432px) {
+    .header .ank1{
+        width: 87%;
+    }	
+}
+@media (max-width: 400px) {
+    .header .ank1{
+        width: 86%;
+    }	
+}
+@media (max-width: 372px) {
+    .header .ank1{
+        width: 85%;
+    }	
+}
+@media (max-width: 348px) {
+    .header .ank1{
+        width: 84%;
+    }	
+}
+@media (max-width: 328px) {
+    .header .ank1{
+        width: 83%;
+    }	
+}
+@media (max-width: 309px) {
+    .header .ank1{
+        width: 82%;
+    }	
+}
+@media (max-width: 293px) {
+    .header .ank1{
+        width: 70%;
+    }	
+}
