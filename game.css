@@ -47,6 +47,8 @@ body{
     align-items: center;
     position: absolute;
     right: 20px;
+    flex-wrap: wrap;
+
 }
 .header ul li a{
     margin: 6px 53px;
