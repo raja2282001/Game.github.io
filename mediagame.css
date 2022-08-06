@@ -16,5 +16,48 @@ body{
 #whats2{ 
     flex-wrap: wrap;
 }
+
 #whats1 video{
+}
+.header nav{
+    height: 332px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 52px
+}
+.header ul{
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 36%;
+    margin-block: -73px -76px;
+    flex-wrap: wrap;
+}
+.header ul li{
+    margin: 13px;
+}
+ #chak{
+    display: none;
+}
+#chak:checked ~.header ul{
+    display: flex;
+}
+#chak:checked ~ .header{
+    height: 305px;
+}
+.header .ank1{
+    font-size: 40px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: end;
+    width: 94%;
+    height: 332px;
 }

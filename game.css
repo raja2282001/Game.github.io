@@ -22,10 +22,13 @@ body{
     align-items: center;
     position: sticky;
     top: 0px;
+    flex-wrap: wrap;
 }
 .header::before{
     content: "";
-    background: url("imag/cat-6570933_1920.jpg");
+    /* background: url("imag/cat-6570933_1920.jpg"); */
+    /* background-color: blueviolet; */
+    background: linear-gradient(-45deg,#4f4709,#dfc8d1,#948a2996,#e7e50d);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -48,7 +51,16 @@ body{
     position: absolute;
     right: 20px;
     flex-wrap: wrap;
-
+}
+ #chak{
+    display: none;
+}
+.header .ank1{
+    font-size: 40px;
+    display: none;
+    align-items: center;
+    justify-content: end;
+    width: 103%;
 }
 .header ul li a{
     margin: 6px 53px;
